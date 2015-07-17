@@ -20,7 +20,7 @@ Rectangle {
             query: "$"
         }
 
-
+        // Navigation
         Component {
           id: listHeaderComponent
           Rectangle {

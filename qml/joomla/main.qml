@@ -21,19 +21,6 @@ Rectangle {
         }
     }
 
-    function loadComContentArticle(){
-        var com = Qt.createComponent("components/com_content_article.qml")
-        if(com.status == Component.Ready){
-            var object = com.createObject(loader)
-        }
-    }
-    function loadComK2Item(){
-        var com = Qt.createComponent("components/com_k2_item.qml")
-        if(com.status == Component.Ready){
-            var object = com.createObject(loader)
-        }
-    }
-
     Column{
         width: parent.width
         spacing: 0
